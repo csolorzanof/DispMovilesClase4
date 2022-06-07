@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/menu_top"
+        android:checkableBehavior="single" >
+        <item
+            android:id="@+id/nav_inicio"
+            android:icon="@android:drawable/btn_star_big_on"
+            android:title="@string/inicio" />
+        <item
+            android:id="@+id/nav_recientes"
+            android:icon="@android:drawable/ic_menu_view"
+            android:title="@string/recientes" />
+        <item
+            android:id="@+id/nav_favoritos"
+            android:icon="@android:drawable/alert_dark_frame"
+            android:title="@string/favoritos" />
+    </group>
+    <group
+        android:id="@+id/menu_bot"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_archivo"
+            android:icon="@android:drawable/ic_menu_save"
+            android:title="@string/archivo" />
+        <item
+            android:id="@+id/nav_papelera"
+            android:icon="@android:drawable/ic_menu_delete"
+            android:title="@string/papelera" />
+    </group>
+</menu>

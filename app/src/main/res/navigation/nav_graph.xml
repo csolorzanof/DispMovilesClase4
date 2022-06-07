@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_inicio">
+
+    <fragment
+        android:id="@+id/nav_inicio"
+        android:name="net.csolorzano.clase4.InicioFragment"
+        android:label="fragment_inicio"
+        tools:layout="@layout/fragment_inicio" >
+        <action
+            android:id="@+id/nav_inicio_a_contenido"
+            app:destination="@id/nav_contenido" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_archivo"
+        android:name="net.csolorzano.clase4.ArchivoFragment"
+        android:label="fragment_archivo"
+        tools:layout="@layout/fragment_archivo" />
+    <fragment
+        android:id="@+id/nav_configuracion"
+        android:name="net.csolorzano.clase4.ConfiguracionFragment"
+        android:label="fragment_configuracion"
+        tools:layout="@layout/fragment_configuracion" />
+    <fragment
+        android:id="@+id/nav_contenido"
+        android:name="net.csolorzano.clase4.ContenidoFragment"
+        android:label="fragment_contenido"
+        tools:layout="@layout/fragment_contenido" />
+    <fragment
+        android:id="@+id/nav_favoritos"
+        android:name="net.csolorzano.clase4.FavoritosFragment"
+        android:label="fragment_favoritos"
+        tools:layout="@layout/fragment_favoritos" />
+    <fragment
+        android:id="@+id/nav_papelera"
+        android:name="net.csolorzano.clase4.PapeleraFragment"
+        android:label="fragment_papelera"
+        tools:layout="@layout/fragment_papelera" />
+    <fragment
+        android:id="@+id/nav_recientes"
+        android:name="net.csolorzano.clase4.RecientesFragment"
+        android:label="fragment_recientes"
+        tools:layout="@layout/fragment_recientes" />
+</navigation>

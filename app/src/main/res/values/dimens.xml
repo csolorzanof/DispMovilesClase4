@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="actividad_padding_horizontal">16dp</dimen>
+    <dimen name="actividad_padding_vertical">16dp</dimen>
+    <dimen name="header_nav_espacio_vertical">8dp</dimen>
+    <dimen name="header_nav_altura">176dp</dimen>
+</resources>
